@@ -1,0 +1,163 @@
+Q-1 Write a C program to print Hello Students on the screen ?
+Ans-
+     #include<stdio.h>
+
+     #include<conio.h>
+
+
+     int main()
+
+     {
+ 
+         printf("Hello Student");
+  
+         getch();
+
+     }
+
+
+____________________________________________________________________________
+
+Q-2 Write a C Program to print Hello on the first line and Students in the second line ?
+
+Ans-
+     #include<stdio.h>
+     #include<conio.h>
+     int main()
+     {
+         printf("Hello\nStudents");
+         getch();
+     }
+____________________________________________________________________________
+
+Q-3 Write a C program to print “MySirG” on the screen ?
+
+Ans-
+     #include<stdio.h>
+     #include<conio.h>
+     int main()
+     {
+         printf("\"MySirG\"");
+         getch();
+     }
+____________________________________________________________________________
+
+Q-4 Write a C program to print “Teacher’s Day” on the screen ?
+
+Ans-
+     #include<stdio.h>
+     #include<conio.h>
+     int main()
+     {
+         printf("\"Teacher's Day\"");
+         getch();
+     }
+____________________________________________________________________________
+
+Q-5 Write a C program to print \n on the screen ?
+Ans-
+     #include<stdio.h>
+     #include<conio.h>
+     int main()
+     {
+         printf("\\n");
+         getch();
+     }
+____________________________________________________________________________
+
+Q-
+6. Write a C program to print %d on the screen ?
+Ans-
+     #include<stdio.h>
+     #include<conio.h>
+     int main()
+     {
+         printf("%%d");
+         getch();
+     }
+____________________________________________________________________________
+
+Q-7 Write a C program containing declaration of three variables (of type int, char and float), also assign some values to them and print values of all three variables using single printf() ?
+Ans- 
+      #include<stdio.h>
+
+      #include<conio.h>
+
+
+      int main()
+
+      {
+
+          int a = 5;
+
+          char b = 'a';
+      
+    float c = 2.8;
+
+          printf("a=%d\nb=%c\nc=%f",a,b,c);
+
+          getch();
+
+} 
+____________________________________________________________________________
+
+Q-8 Explore following format specifiers on internet - %i, %g, %lf ?
+Ans-
+      %i for int type value. 
+      %g for float type value.
+      %lf for double type value.
+____________________________________________________________________________
+
+Q-9 Write a C program to print character stored in a char variable, also print its ASCII code?
+
+Ans-
+     #include<stdio.h>
+     
+#include<conio.h>
+
+
+     int main()
+     
+{
+
+         char a='a';
+     
+    printf("a=%d",a);
+ 
+    
+    getch();
+
+     }
+____________________________________________________________________________
+
+Q-10 How to convert a Decimal number into a Binary number and vice versa ?
+Ans-Decimal number into binary number:-
+An easy method of converting decimal to binary number equivalents is to write down the decimal number and to continually divide-by-2 (two) to give a result and a remainder of either a “1” or a “0” until the final result equals zero. 
+for example :-
+
+655=1010001111                                                      
+ 2/655=327 remainder = 1    
+ 2/327=163 remainder = 1     
+ 2/163=81 remainder = 1      
+ 2/81=40 remainder = 1       
+ 2/40=20 remainder = 0       
+ 2/20=10 remainder = 0       
+ 2/10=5 reamainder = 0       
+ 2/5=4 reamainder = 1        
+ 2/4=2 reamainder = 0        
+ 2/2=0 reamainder = 1        
+1010001111
+
+655 = 1010001111
+2's power -----> 512 256 128 64 32 16 8 4 2 1
+                         1   0    1   0  0   0 1 1 1 1
+18 = 10010    
+2's power -----> 32 16 8 4 2 1
+                           1 0 0 1 0
+98 = 1100010
+2's power -----> 64 32 16 8 4 2 1 
+                       1  1   0 0 0 1 0
+423 = 110000111
+2's power -----> 256 128 64 32 16 8 4 2 1
+                         1   1   0  0   0 0 1 1 1
+____________________________________________________________________________
